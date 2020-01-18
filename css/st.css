@@ -50,7 +50,15 @@
 	height: 270px;
 	margin: 0 auto;
 	border:1px solid #fff;
-	background-color: #343D46;
+	/* для крастоты*/
+	background: rgba(248,80,50,1);
+background: -moz-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 79%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(30%, rgba(241,111,92,1)), color-stop(55%, rgba(246,41,12,1)), color-stop(79%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 79%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 79%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 79%, rgba(231,56,39,1) 100%);
+background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 79%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
 	/* тени для боков для разных браузеров*/
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
