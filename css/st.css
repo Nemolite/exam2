@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.block {
+	padding-top: 100px; /* отсуп для блока внутри*/
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #087DE4;
+	height: 100vh; /* всегда будет на весь экран*/
+}
+
+.head-txt {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	border:1px solid #fff;
+	margin-bottom: 20px; /* отсуп, толкаем нижний  блок вниз*/
+}
+
+.head-txt h1 {
+	text-align: center; /* текст по центру*/
+	color:#fff;
+	margin-top: 0px; /* по умолчанию у h1 есть отсупы*/
+}
+
+
+.block-inner {
+	width: 90%;
+	height: auto; /* обрати внимание auto*/
+	margin: 0 auto;
+	border:1px solid red;
+
+}
+
+.block-inner-item {
+	padding-top: 10px;
+	width: 33%;
+	height: 300px;
+	border:1px solid green;
+	display: inline-block; /* вместо float: left;*/
+
+}
+
+.individual {
+	width: 80%;
+	height: 270px;
+	margin: 0 auto;
+	border:1px solid #fff;
+	background-color: #343D46;
+	/* тени для боков для разных браузеров*/
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
